@@ -1,7 +1,7 @@
 function ExponenteE(x)
 {
-    var sumatoria=1, factorial=1, exponente=1,resultado=0;
-    for(var i=1; i<=x;i++)
+    var sumatoria=1, factorial=1, exponente=1,resultado=0,terminos=3;
+    for(var i=1; i<=terminos;i++)
     {
         factorial*=i;
         resultado=(Math.pow(x,i)/factorial);
